@@ -27,35 +27,42 @@ img {
     width: 200px;
     height: 300px;
     padding: 20px;
-    h3{
+
+    h3 {
         font-family: serif;
     }
-    p{
+
+    p {
         font-size: xx-small;
         font-display: flex;
     }
 }
 
-.time{
+.time {
     background-color: gray;
-    dt{
+
+    dt {
         font-size: larger;
         font-weight: bolder;
         color: rgb(236, 236, 165);
     }
-    dd{
-        font-size: x-small;
-        font-family: 'Times New Roman', Times, serif;
-    } 
-    
-    }
-    .Ing{
+
+    dd {
         font-size: x-small;
         font-family: 'Times New Roman', Times, serif;
     }
-    .list{
-        font-size: xx-small;
-    }
-    .ordered{
-        font-size: xx-small;
-    }
+
+}
+
+.Ing {
+    font-size: x-small;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.list {
+    font-size: xx-small;
+}
+
+.ordered {
+    font-size: xx-small;
+}
