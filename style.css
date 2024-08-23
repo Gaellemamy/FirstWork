@@ -11,7 +11,7 @@ body {
     background-color: white;
     margin-top: 40px;
     margin-left: 400px;
-    padding-bottom: 200px;
+    padding-bottom: 80%;
     padding-left: 10px;
     padding-right: 10px;
 
@@ -40,23 +40,22 @@ img {
 
 .time {
     background-color: gray;
-
-    dt {
-        font-size: larger;
-        font-weight: bolder;
-        color: rgb(236, 236, 165);
+}
+    dt{
+        font-size:x-small;
+        color: rgb(252, 252, 208);
     }
+       
+    
 
     dd {
         font-size: x-small;
         font-family: 'Times New Roman', Times, serif;
     }
 
-}
-
 .Ing {
-    font-size: x-small;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-small;
+    font-family:monospace
 }
 
 .list {
@@ -65,4 +64,25 @@ img {
 
 .ordered {
     font-size: xx-small;
+}
+.demo{
+    font-size: xx-small;
+    font-family: monospace;
+}
+.ordered{
+    font-size: x-small;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.table{
+     border: 1px solid black;
+     th{
+        border: 1px solid black;
+     }
+     td{
+        border:1px solid black ;
+     }
+}
+.nuti{
+    font-family: serif;
+    font: bolder;
 }
